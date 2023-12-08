@@ -1,0 +1,51 @@
+.form {
+    width: 55%;
+    
+    &__input-group {
+        position: relative;
+    }
+
+    &__input {
+        width: 70%;
+        display: block;
+        outline: none;
+        padding: 1.4rem 4rem .8rem;
+        border: none;
+        border-bottom: 3px solid transparent;
+        border-radius: 3px;
+        color: $color-gray-dark-3;
+        background-color: $color-gray-light-1;
+        box-shadow: 0 2rem 4rem rgba($color-black, .3);
+        font-size: $default-font-size;
+        
+        &::placeholder {
+            font-size: $default-font-size;
+          
+        }
+
+        &:focus {
+            border-bottom: 3px solid $color-primary-dark;
+        }
+        &:focus:invalid {
+            border-bottom: 3px solid orangered;
+        }
+    }
+
+    &__label {
+        display: block;
+        margin-left: 4rem;
+        color: $color-black;
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+        transition: all .4s;
+    }
+
+    &__input:placeholder-shown + &__label {
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(-3rem);
+    }
+
+
+}

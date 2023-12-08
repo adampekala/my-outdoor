@@ -1,0 +1,26 @@
+.features {
+
+    &__card {
+        margin-top: 8rem;
+        background-color: $color-white;
+        text-align: center;
+        padding: 4rem 1rem 6rem;
+        border-radius: 3px;
+        box-shadow: 0 2px 4px rgba($color-black, .3);
+        transition: all .3s;
+
+        &:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 4px 20px rgba($color-black, .3);
+        }
+    }
+    &__icon {
+        display: block;
+        font-size: 7rem;
+        background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+}
+
