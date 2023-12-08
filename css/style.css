@@ -447,13 +447,12 @@ body {
 }
 .form__input-group {
   position: relative;
-  margin-bottom: 2rem;
 }
 .form__input {
   width: 75%;
   display: block;
   outline: none;
-  padding: 1.4rem 4rem 1.2rem;
+  padding: 1.4rem 4rem 1rem;
   border: none;
   border-bottom: 3px solid transparent;
   border-radius: 5px;
@@ -479,6 +478,7 @@ body {
   visibility: visible;
   transform: translateY(0);
   transition: all 0.4s;
+  font-size: 2.08rem;
 }
 .form__input:placeholder-shown + .form__label {
   opacity: 0;
@@ -486,7 +486,7 @@ body {
   transform: translateY(-3rem);
 }
 .form__radio-group {
-  margin-bottom: 4rem;
+  margin-bottom: 6rem;
 }
 .form__radio-input {
   opacity: 0;
@@ -495,6 +495,8 @@ body {
 }
 .form__radio-label {
   display: inline-block;
+  font-size: 1.92rem;
+  margin-right: 4rem;
 }
 .form__radio-button {
   display: inline-block;
