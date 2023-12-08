@@ -19,10 +19,10 @@
       href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
       rel="stylesheet"
     />
-    <!-- <link
+    <link
       rel="stylesheet"
       href="./css/icons.css"
-    /> -->
+    />
     <link
       rel="stylesheet"
       href="./css/style.css"
@@ -321,7 +321,7 @@
           action="#"
           class="form"
         >
-          <h2 class="heading-secoundary u-margin-bottom-small">
+          <h2 class="heading-secoundary u-margin-bottom-medium">
             start booking now!
           </h2>
           <div class="form__input-group">
@@ -351,6 +351,12 @@
               class="form__label"
               >Full name</label
             >
+          </div>
+          <div class="form__radio-group">
+            <input type="radio" class="form__radio-input" name="tour_group" id="tour_group_small" checked>
+            <label for="tour_group_small" class="form__radio-label"><span class="form__radio-button"></span>Small tour group</label>
+            <input type="radio" class="form__radio-input" name="tour_group" id="tour_group_large">
+            <label for="tour_group_large" class="form__radio-label"><span class="form__radio-button"></span>Large tour group</label>
           </div>
           <button class="btn btn--green">next step &rarr;</button>
         </form>
