@@ -12,13 +12,15 @@
   }
 
   .footer__nav {
-    border-top: 1px solid $color-gray-dark-1;
-    width: 85%;
-    margin-left: 8rem
+    text-align: center;
+    width: 100%;
+    padding: 0 4rem;
+    // margin-left: 8rem
     
   }
 
   .footer__list {
+    border-top: 1px solid $color-gray-dark-1;
     list-style: none;
     text-align: center;
     padding-top: 1.2rem;
@@ -42,12 +44,13 @@
   }
 
   .footer__copyright {
-    border-top: 1px solid $color-gray-dark-1;
-    width: 85%;
-    margin-left: 3rem;
+    padding: 0 4rem;
+    width: 100%;
+    // margin-left: 3rem;
   }
 
   .footer__paragraph {
+    border-top: 1px solid $color-gray-dark-1;
     padding-top: 1.2rem;
     color: $color-white;
     padding: 1rem .5rem;

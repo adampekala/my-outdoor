@@ -332,11 +332,12 @@ body {
   height: 8rem;
 }
 .footer .footer__nav {
-  border-top: 1px solid #777;
-  width: 85%;
-  margin-left: 8rem;
+  text-align: center;
+  width: 100%;
+  padding: 0 4rem;
 }
 .footer .footer__list {
+  border-top: 1px solid #777;
   list-style: none;
   text-align: center;
   padding-top: 1.2rem;
@@ -357,11 +358,11 @@ body {
   color: #55c57a;
 }
 .footer .footer__copyright {
-  border-top: 1px solid #777;
-  width: 85%;
-  margin-left: 3rem;
+  padding: 0 4rem;
+  width: 100%;
 }
 .footer .footer__paragraph {
+  border-top: 1px solid #777;
   padding-top: 1.2rem;
   color: #fff;
   padding: 1rem 0.5rem;
